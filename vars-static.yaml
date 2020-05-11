@@ -1,0 +1,30 @@
+---
+staticips: true
+helper:
+  name: "centos-lb"
+  ipaddr: "192.168.2.174"
+dns:
+  domain: "eidikointernal.com"
+  clusterid: "openshift"
+  forwarder1: "192.168.1.1"
+  forwarder2: "8.8.8.8"
+bootstrap:
+  name: "bootstrap"
+  ipaddr: "192.168.3.99"
+masters:
+  - name: "master0"
+    ipaddr: "192.168.3.110"
+  - name: "master1"
+    ipaddr: "192.168.3.111"
+  - name: "master2"
+    ipaddr: "192.168.3.112"
+workers:
+  - name: "worker0"
+    ipaddr: "192.168.3.120"
+  - name: "worker1"
+    ipaddr: "192.168.3.121"
+  - name: "worker2"
+    ipaddr: "192.168.3.122"
+other:
+  - name: "non-cluster-vm"
+    ipaddr: "192.168.2.189"
