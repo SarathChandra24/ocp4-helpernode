@@ -20,11 +20,11 @@ masters:
     ipaddr: "192.168.3.112"
 workers:
   - name: "worker0"
-    ipaddr: "192.168.3.120"
+    ipaddr: "192.168.3.115"
   - name: "worker1"
-    ipaddr: "192.168.3.121"
+    ipaddr: "192.168.3.116"
   - name: "worker2"
-    ipaddr: "192.168.3.122"
+    ipaddr: "192.168.3.117"
 other:
   - name: "non-cluster-vm"
     ipaddr: "192.168.2.189"
